@@ -63,6 +63,7 @@ fun MovieCounter(modifier: Modifier = Modifier) {
         }
     }
 }
+
 @Preview(showBackground = true)
 @Composable
 fun PreviewMovieCounter() {
