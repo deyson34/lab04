@@ -57,7 +57,7 @@ fun MovieCounter(modifier: Modifier = Modifier) {
                 count++
                 movieName = ""
             } }) {
-            Text("Add Movie")
+            Text("Agregar Pelicula")
         }
     }
 }
