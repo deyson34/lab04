@@ -51,7 +51,7 @@ fun MovieCounter(modifier: Modifier = Modifier) {
         TextField(
             value = movieName,
             onValueChange = { movieName = it },
-            label = { Text("Movie Name") }
+            label = { Text("Nombre de la pelicula") }
         )
         Spacer(modifier = Modifier.height(16.dp))
         Button(
