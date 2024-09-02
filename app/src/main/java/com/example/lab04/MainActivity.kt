@@ -36,7 +36,7 @@ fun AuctionHomeScreen() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "Bienvenido a la Subasta",
+            text = "Bienvenido a Winnow",
             fontSize = 24.sp,
             color = Color.Black,
             modifier = Modifier.padding(bottom = 16.dp)
