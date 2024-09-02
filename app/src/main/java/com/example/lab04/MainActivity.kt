@@ -83,7 +83,7 @@ fun AuctionProductItem(productName: String, onProductClick: () -> Unit) {
         ) {
             Text(text = productName, fontSize = 18.sp)
             ClickableText(
-                text = AnnotatedString("Ver Detalles"),
+                text = AnnotatedString("Visualizar mas cosas del proyecto"),
                 onClick = { onProductClick() }
             )
         }
